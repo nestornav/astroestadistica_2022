@@ -1,8 +1,11 @@
 # Astroestadística 2022
 
 Repositorio para los trabajos realizados para el curso de [astroestadística](https://drive.google.com/file/d/1N06j0Q0MFSDMZMy_SsgG_wGSPmz0f8S2/view) dictado en la FaMAF.
+
 **Profesor:** Dr. Mariano J. Dominguez
+
 **Alumno:** Nestor Navarro
+
 
 ## Dataset
 
@@ -45,7 +48,7 @@ mkvirtualenv $(which python8.8) virtualenv_name
 pip install -r requirements.txt
 ```
 
-## Running the notebook locally
+## Running the notebook locally
 
 ```
 jupyter notebook &
