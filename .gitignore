@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+dist/
+eggs/
+.eggs/
+wheels/
+*.egg-info/
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
