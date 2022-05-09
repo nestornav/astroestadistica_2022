@@ -7,10 +7,11 @@ Repositorio para los trabajos realizados para el curso de [astroestadística](ht
 **Alumno:** Nestor Navarro
 
 
-## Dataset
+## Datasets
 
-El dataset completo se puede descargar de [acá](https://astro.ft.uam.es/selgifs/data_challenge/). Pesa aproximadamente un 1GB.
-Para entender mas la naturaleza del conjunto de datos, este es el [paper](https://academic.oup.com/mnras/article/479/1/917/5033702) donde fueron generados.
+### Data clean and analysis
+For this assigment I will use the data from the paper [Pipe3D, a pipeline to analyze Integral Field Spectroscopy Data: II. Analysis sequence and CALIFA dataproducts](https://arxiv.org/pdf/1602.01830.pdf). Getting the data avaible for tables 8, 9 and 10 from the paper.
+These data can be downloaded as csv file using a FTP service from [here](http://califaserv.caha.es/CALIFA_WEB/public_html/?q=content/science-dataproducts). Inside the archive, scroll to the project name and select the three tables links.
 
 
 ## Run the project
@@ -38,7 +39,7 @@ mkvirtualenv virtualenv_name
 If you are using python 2.7 as default also you can do the following command to use python3.8
 
 ```
-mkvirtualenv $(which python8.8) virtualenv_name
+mkvirtualenv $(which python3.8) virtualenv_name
 ```
 
 
